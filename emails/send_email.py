@@ -13,6 +13,7 @@ smtp.login(login, password)
 from_address = login
 to_address = login
 subject = 'test'
+
 message = 'test message'
 
 smtp.sendmail(from_address, to_address, message)
