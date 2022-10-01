@@ -14,7 +14,6 @@ from_address = login
 to_address = login
 subject = 'test'
 message = 'test message'
-msg = f'Subject: {subject}\n {message}'
 
-smtp.sendmail(from_address, to_address, msg)
+smtp.sendmail(from_address, to_address, message)
 smtp.quit()
